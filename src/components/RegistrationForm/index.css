@@ -1,0 +1,99 @@
+/* Write your CSS code here */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.heading {
+  color: #ea580c;
+  font-weight: 500;
+}
+.form-container {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  min-height: 30vh;
+  min-width: 25vw;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.form-item-container {
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+.label-text {
+  color: #475569;
+  margin-bottom: 5px;
+}
+.input-el {
+  min-height: 25px;
+  min-width: 300px;
+  border: 1px solid #cbd2d9;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  outline: none;
+}
+.submit-btn {
+  color: #ffffff;
+  background-color: #ea580c;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 30px;
+  width: 80px;
+  border-radius: 8px;
+}
+.err-msg {
+  color: #ff0b37;
+}
+.success-container {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  min-height: 45vh;
+  min-width: 45vw;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.success-icon {
+  height: 30px;
+  width: 30px;
+}
+.success-para {
+  color: #9aa5b1;
+  font-family: 'Roboto';
+}
+.submit-btn-success {
+  color: #ffffff;
+  background-color: #ea580c;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 40px;
+  width: 250px;
+  border-radius: 8px;
+}
+.input-el-err {
+  min-height: 25px;
+  min-width: 300px;
+  border: 1px solid #ff0b37;
+  background-color: #fef2f4;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  outline: none;
+}
